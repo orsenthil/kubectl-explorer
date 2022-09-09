@@ -1,38 +1,22 @@
-# GitExplorer
-Table of Contents
+# EKSCtl Explorer
 
-[Intro](https://github.com/summitech/gitexplorer/blob/master/README.md#intro)
+### Why
 
-[Tech Stack](https://github.com/summitech/gitexplorer/blob/master/README.md#tech-stack)
+[eksctl](https://eksctl.io/) is an awesome tool. It reduces the complexity of kubernetes deployment to AWS.
+It makes Kubernetes, Elastic Kubernetes Service and AWS Concepts accessible.
 
-[Installation](https://github.com/summitech/gitexplorer/blob/master/README.md#installation)
-
-[Makers](https://github.com/summitech/gitexplorer/blob/master/README.md#makers)
-
-[Contribute](https://github.com/summitech/gitexplorer/blob/master/README.md#contribute)
-
-[Donate](https://github.com/summitech/gitexplorer/blob/master/README.md#donate)
-
-[RoadMap](https://github.com/summitech/gitexplorer/blob/master/README.md#roadmap)
-
-### Intro
-Last year, we came across [Sarah Drasner's array explorer](https://github.com/sdras/array-explorer). It is a really cool resource for anyone to easily figure out the best JS array method to use. We loved it and decided to build something similar for Git.
-
-Website: [Click to find the right git commands without digging through the web.](https://gitexplorer.com)
-
-Explore and Enjoy! 
-
-You can reach us on [the official git explorer twitter handle](https://twitter.com/gitexplorer) or on [Summitech's twitter handle](https://twitter.com/summitechng).
+`eksctl-explorer` will be a website, that will give you eksctl command for various operations you have in your mind.
 
 
-### Tech Stack
+### Built on top of 
 
-- React
-- Netlify
-- Our first hosting platform was [Surge](https://surge.sh). Super easy to set up and very reliable :+1:. 100% recommend!
+* [Sarah Drasner's array explorer](https://github.com/sdras/array-explorer).
+* [Summitech Git Explorer](https://gitexplorer.com)
 
 
-### Installation
+
+### Local Development
+
 ```
 yarn (Install all dependencies)
 
@@ -44,10 +28,8 @@ To try GitExplorer in a docker container, run this:
 docker-compose up
 ```
 
-### Makers
-Awesome devs and designer at [Summitech](https://summitech.ng)
-
 ### Contribute
+
 Thank you for contributing to GitExplorer!
 
 Please follow the below instructions to send a Pull Request (Search the website to make sure that this command doesn't already exist).
@@ -118,14 +100,3 @@ show: [
   ]
   ```
 4. Once you are done, add, commit, push and create a PR to Master.
-
-### Donate
-
- You can also contribute to the continued success of the project via donation. Please click this [link](https://rave.flutterwave.com/donate/bavfmdlomzs2).
-
- ### RoadMap
-
- - [x] Enforce HTTPs & offline capabilities
- - [x] Open source
- - [ ] PWA
- - [ ] Shareable commands
