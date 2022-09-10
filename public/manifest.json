@@ -1,6 +1,6 @@
 {
-  "short_name": "Git Explorer",
-  "name": "Git Explorer",
+  "short_name": "eksctl explorer",
+  "name": "eksctl explorer",
   "icons": [
     {
       "src": "favicon.ico",

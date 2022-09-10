@@ -149,10 +149,10 @@ class App extends Component {
             <div className="row">
               <div className="col-5">
                 <h2 className="content__title  dark-white">
-                  Git <span>Command</span> Explorer
+                  <span>eksctl</span> explorer
                 </h2>
                 <p className="content__subtitle dark-grey">
-                  Find the right commands you need without digging through the web.
+                  Commands to launch, and manage EKS clusters in an accessible way.
                 </p>
 
                 <div className="options">
