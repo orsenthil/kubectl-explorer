@@ -13,4 +13,24 @@ export const tertiaryOptions = {
         nb: 'Prints the manifest yaml for the cluster to stdout without creating the cluster.'
     },
   ],
+    'addon': [
+
+    ],
+
+    'fargate-profile': [
+
+    ],
+
+    'iamserviceaccount': [
+
+    ],
+
+    'nodegroup': [
+
+    ],
+
+    'iamidentitymapping': [
+
+    ],
+
 };
