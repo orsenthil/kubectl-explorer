@@ -25,4 +25,14 @@ export const secondaryOptions = {
             label: 'an iam identity mapping',
         },
     ],
+    enable_logging : [
+        {
+            value: 'enable-all-logs',
+            label: 'enable all logs',
+            usage: 'eksctl utils update-cluster-logging --enable-types=all --region=$AWS_REGION --cluster=$CLUSTER_NAME --approve',
+            nb: 'would update CloudWatch logging for cluster (enable types: api, audit, authenticator, controllerManager, scheduler).\n\n "all" will enable all types of logs, use "no" to disable',
+        },
+    ],
+    delete : [
+    ],
 };
