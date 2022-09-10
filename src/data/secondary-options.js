@@ -33,6 +33,12 @@ export const secondaryOptions = {
             nb: 'would update CloudWatch logging for cluster (enable types: api, audit, authenticator, controllerManager, scheduler).\n\n "all" will enable all types of logs, use "no" to disable',
         },
     ],
-    delete : [
+    describe_addons: [
+        {
+            value: 'describe-all-addons',
+            label: 'all addons',
+            usage: 'eksctl utils describe-addon-versions --cluster $CLUSTER_NAME --verbose 0 | jq .',
+            nb: 'would list all addons available for cluster.\n\n jq tool is used for friendly formatting of output.',
+        },
     ],
 };
