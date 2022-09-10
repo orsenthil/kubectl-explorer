@@ -11,5 +11,6 @@ export const tertiaryOptions = {
         label: 'dry run',
         usage: 'eksctl create cluster --dry-run',
         nb: 'Prints the manifest yaml for the cluster to stdout without creating the cluster.'
+    },
   ],
 };

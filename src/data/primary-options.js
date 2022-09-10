@@ -1,5 +1,5 @@
 const options = [
-  { value: 'create', label: 'create a cluster' },
+  { value: 'create', label: 'create' },
 ];
 
 export const primaryOptions = options.sort((x, y) => {
