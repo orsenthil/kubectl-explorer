@@ -11,7 +11,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      dark: JSON.parse(localStorage.getItem('dark')) || true,
+      dark: JSON.parse(localStorage.getItem('dark')) || false,
       fastType: JSON.parse(localStorage.getItem('fastType')) || true,
       firstOption: null,
       showSecond: false,
@@ -149,7 +149,7 @@ class App extends Component {
             <div className="row">
               <div className="col-5">
                 <h2 className="content__title  dark-white">
-                  <span>eksctl</span> explorer
+                  <span>kubectl</span> explorer
                 </h2>
                 <p className="content__subtitle dark-grey">
                   Commands to launch, and manage EKS clusters in an accessible way.

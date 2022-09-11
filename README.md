@@ -1,9 +1,9 @@
-# eksctl explorer
+# kubectl explorer
 
-[eksctl](https://eksctl.io/) is an awesome tool. It reduces the complexity of kubernetes deployment to AWS.
+[kubectl](https://kubectl.io/) is an awesome tool. It reduces the complexity of kubernetes deployment to AWS.
 It makes Kubernetes, Elastic Kubernetes Service and AWS Concepts accessible.
 
-This project, `eksctl-explorer`, creates a website [https://eksctl.learntosolveit.com](https://eksctl.learntosolveit.com) that gives eksctl commands for cluster management operations.
+This project, `kubectl-explorer`, creates a website [https://kubectl.learntosolveit.com](https://kubectl.learntosolveit.com) that gives kubectl commands for cluster management operations.
 
 ### Built on top of 
 

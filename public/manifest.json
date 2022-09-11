@@ -1,6 +1,6 @@
 {
-  "short_name": "eksctl explorer",
-  "name": "eksctl explorer",
+  "short_name": "kubectl explorer",
+  "name": "kubectl explorer",
   "icons": [
     {
       "src": "favicon.ico",
