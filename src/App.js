@@ -11,8 +11,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      dark: JSON.parse(localStorage.getItem('dark')) || false,
-      fastType: JSON.parse(localStorage.getItem('fastType')) || false,
+      dark: JSON.parse(localStorage.getItem('dark')) || true,
+      fastType: JSON.parse(localStorage.getItem('fastType')) || true,
       firstOption: null,
       showSecond: false,
       secondOption: null,
