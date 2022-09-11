@@ -28,6 +28,12 @@ export const tertiaryOptions = {
     ],
 
     'iamserviceaccount': [
+        {
+            value: 'iamserviceaccount-option',
+            label: 'with an example policy.',
+            usage: 'eksctl create iamserviceaccount --name $IAM_ACCOUNT_NAME  --namespace $IAM_ACCOUNT_NAMESPACE --cluster $CLUSTER_NAME   --attach-policy-arn arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess  --approve     --override-existing-serviceaccounts',
+            nb: 'will create a IAM role bound to a service account with an example policy, which is read-only access to S3.\n\nsubstitute --attach-policy-arn with policy ARN for creating other types service accounts.'
+        },
 
     ],
 

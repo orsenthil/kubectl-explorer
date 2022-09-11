@@ -38,7 +38,13 @@ export const secondaryOptions = {
             value: 'describe-all-addons',
             label: 'all addons',
             usage: 'eksctl utils describe-addon-versions --cluster $CLUSTER_NAME --verbose 0 | jq .',
-            nb: 'would list all addons available for cluster.\n\n jq tool is used for friendly formatting of output.',
+            nb: 'would list all addons available for cluster.\n\njq tool is used for friendly formatting of output.',
+        },
+        {
+            value: 'describe-particular-addon',
+            label: 'a particular addon',
+            usage: 'eksctl utils describe-addon-versions --cluster $CLUSTER_NAME --addon $ADDON_NAME --verbose 0 | jq .',
+            nb: 'would list all versions of a particular addon available for cluster.\n\nAddon name could "adot", "kube-proxy", "vpc-cni", "coredns", "aws-ebs-csi-driver" or any other addon applicable for the cluster.\n\njq tool is used for friendly formatting of output.',
         },
     ],
 };
