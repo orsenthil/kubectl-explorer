@@ -1,13 +1,13 @@
-version: "3.2"
+version: "3.8"
 services:
-  gitexplorer:
+  eksctlexplorer:
     restart: always
     build:
       context: ./
       cache_from:
         - node:alpine
-    container_name: gitexplorer 
-    hostname: gitexplorer 
+    container_name: eksctl-explorer
+    hostname: eksctl-explorer
     network_mode: bridge
     volumes:
       - ./:/usr/app
