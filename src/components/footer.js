@@ -27,7 +27,28 @@ const Footer = props => (
       >
         Twitter
       </a>
+
+
     </p>
+
+    <p className="footer__copyright dark-white">
+      See Also {' '}
+      <a href="https://eksctl-explorer.learntosolveit.com/" target="_blank" rel="noopener noreferrer" className="footer__link">kubectl-explorer,</a>
+      <a href="https://eksctl-explorer.learntosolveit.com/" target="_blank" rel="noopener noreferrer" className="footer__link">aws-explorer</a>
+    </p>
+
+    <p className="footer__copyright dark-white">
+      Thanks to parent projects {' '}
+      <a href="https://gitexplorer.com/" target="_blank" rel="noopener noreferrer">
+    GitExplorer,</a>
+      <a
+        href="https://objectexplorer.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="footer__link"
+      >Javascript Object Explorer.</a>
+    </p>
+
   </footer>
 );
 
