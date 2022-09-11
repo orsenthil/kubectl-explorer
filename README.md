@@ -1,12 +1,9 @@
-# EKSCtl Explorer
-
-### Why
+# eksctl explorer
 
 [eksctl](https://eksctl.io/) is an awesome tool. It reduces the complexity of kubernetes deployment to AWS.
 It makes Kubernetes, Elastic Kubernetes Service and AWS Concepts accessible.
 
-`eksctl-explorer` will be a website, that will give you eksctl command for various operations you have in your mind.
-
+This project, `eksctl-explorer`, creates a website [https://eksctl.learntosolveit.com](https://eksctl.learntosolveit.com) that gives eksctl commands for cluster management operations.
 
 ### Built on top of 
 
