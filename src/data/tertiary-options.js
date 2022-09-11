@@ -15,6 +15,12 @@ export const tertiaryOptions = {
     ],
 
     'addon': [
+        {
+            value: 'create-addon',
+            label: 'install a latest version of an addon',
+            usage: 'eksctl create addon --cluster $CLUSTER_NAME --name $ADDON_NAME',
+            nb: 'Installs the latest version of an addon to a cluster.\n\nAddon name could "adot", "kube-proxy", "vpc-cni", "coredns", "aws-ebs-csi-driver" or any other addon applicable for the cluster.'
+        },
 
     ],
 
@@ -47,7 +53,12 @@ export const tertiaryOptions = {
     ],
 
     'iamidentitymapping': [
-
+        {
+            value: 'iamidentitymapping-option',
+            label: 'map a clusterrole to clusterrolebinding',
+            usage: 'eksctl create iamidentitymapping --cluster $CLUSTER_NAME --arn $ARN --username $USERNAME --group $GROUP',
+            nb: 'Creates an IAM identity mapping with default options.\n\nIAM identity mapping will be created with $ARN, $USERNAME, and $GROUP.\n\nUse kubectl get clusterrole to view clusterroles.\n\nUse kubectl get clusterrolebinding to view clusterrolebindings.\n\nUse eksctl get iamidentitymapping --cluster $CLUSTER_NAME to view iamidentitymappings and to find --arn format for account/role.'
+        },
     ],
 
 };
