@@ -38,7 +38,12 @@ export const tertiaryOptions = {
     ],
 
     'nodegroup': [
-
+        {
+            value: 'nodegroup-option',
+            label: 'with default options.',
+            usage: 'eksctl create nodegroup --cluster $CLUSTER_NAME --name $NODE_GROUP_NAME',
+            nb: 'Creates a nodegroup with default options.\n\nNodegroup will be created with 2 m5.large EC2 instances.'
+        },
     ],
 
     'iamidentitymapping': [
