@@ -47,4 +47,12 @@ export const secondaryOptions = {
             nb: 'would list all versions of a particular addon available for cluster.\n\nAddon name could "adot", "kube-proxy", "vpc-cni", "coredns", "aws-ebs-csi-driver" or any other addon applicable for the cluster.\n\njq tool is used for friendly formatting of output.',
         },
     ],
+    iam_oidc: [
+        {
+            value: 'create-oidc-provider',
+            label: 'create an OIDC provider',
+            usage: 'eksctl utils associate-iam-oidc-provider --region=$AWS_REGION --cluster=$CLUSTER_NAME --approve',
+            nb: 'would create an OIDC provider for cluster.',
+        },
+    ],
 };
