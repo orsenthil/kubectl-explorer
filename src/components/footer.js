@@ -17,7 +17,7 @@ const Footer = props => (
     <p className="footer__copyright dark-white">
       Made with <span>❤</span> by{' '}
       <a href="https://senthil.learntosolveit.com" target="_blank" rel="noopener noreferrer">
-    Senthil Kumaran. See also <span>👉</span>{' '}
+    Senthil Kumaran. See also <span></span>{' '}
       </a>
       <a href="https://eksctl-explorer.learntosolveit.com/" target="_blank" rel="noopener noreferrer" className="footer__link">kubectl-explorer,</a>
       <a href="https://eksctl-explorer.learntosolveit.com/" target="_blank" rel="noopener noreferrer" className="footer__link">aws-explorer</a>
