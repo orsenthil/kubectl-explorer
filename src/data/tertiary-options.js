@@ -7,4 +7,18 @@ export const tertiaryOptions = {
             nb: 'Get pod.yaml from \n\ncurl -O https://raw.githubusercontent.com/orsenthil/kubernetes-library/master/cka-practice/pods/pod.yaml \n\n This is a simple busybox pod. It is a good starting point for learning how to use kubectl.',
         },
     ],
+    'install-kubectl': [
+        {
+            value: 'install-kubectl-linux',
+            label: 'Install kubectl on Linux',
+            usage: 'curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"\n\nchmod +x ./kubectl \n\nsudo mv ./kubectl /usr/local/bin/kubectl \n\nkubectl version --client',
+            nb: 'This installs kubectl.\nYou must use a kubectl version that is within one minor version difference of your cluster. For example, a v1.25 client can communicate with v1.24, v1.25, and v1.26 control planes',
+        },
+        {
+            value: 'install-kubectl-v122-linux',
+            label: 'Install kubectl v1.22 on Linux',
+            usage: 'curl -LO "https://dl.k8s.io/release/v1.22.0/bin/linux/amd64/kubectl"\n\nchmod +x ./kubectl \n\nsudo mv ./kubectl /usr/local/bin/kubectl \n\nkubectl version --client',
+            nb: 'This installs kubectl v1.22.\nYou must use a kubectl version that is within one minor version difference of your cluster. For example, a v1.22 client can communicate with v1.21, v1.22, and v1.23 control planes',
+        },
+    ],
 };

@@ -5,4 +5,10 @@ export const secondaryOptions = {
             label: 'Create a pod using the data in pod.yaml',
         },
     ],
+    install : [
+        {
+            value: 'install-kubectl',
+            label: 'Install kubectl',
+        },
+    ],
 };
