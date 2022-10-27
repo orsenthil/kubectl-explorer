@@ -11,4 +11,10 @@ export const secondaryOptions = {
             label: 'Install kubectl',
         },
     ],
+    get : [
+        {
+            value: 'get-pods-not-running',
+            label: 'Get pods not running',
+        },
+    ],
 };

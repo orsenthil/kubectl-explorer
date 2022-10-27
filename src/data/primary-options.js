@@ -1,6 +1,7 @@
 const options = [
     { value: 'create', label: 'create' },
     { value: 'install', label: 'install' },
+    { value: 'get', label: 'get' },
 ];
 
 export const primaryOptions = options.sort((x, y) => {

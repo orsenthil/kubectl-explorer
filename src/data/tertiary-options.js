@@ -21,4 +21,12 @@ export const tertiaryOptions = {
             nb: 'This installs kubectl v1.22.\nYou must use a kubectl version that is within one minor version difference of your cluster. For example, a v1.22 client can communicate with v1.21, v1.22, and v1.23 control planes',
         },
     ],
+    'get-pods': [
+        {
+            value: 'get-pods-not-running',
+            label: 'Get pods not running',
+            usage: 'kubectl get pods --field-selector=status.phase!=Running --sort-by=.status.startTime',
+            nb: 'This command lists all pods in all namespaces.',
+        },
+    ],
 };
