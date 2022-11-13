@@ -28,5 +28,26 @@ export const tertiaryOptions = {
             usage: 'kubectl get pods --field-selector=status.phase!=Running --sort-by=.status.startTime',
             nb: 'This command lists all pods in all namespaces.',
         },
+    'get-pods-running': [
+        {
+            value: 'get-pods-running',
+            label: 'Get pods running',
+            usage: 'kubectl get pods --field-selector=status.phase=Running --sort-by=.status.startTime',
+            nb: 'This command lists all pods in all namespaces.',
+        },
+    'get-pods-all-namespaces': [
+        {
+            value: 'get-pods-all-namespaces',
+            label: 'Get pods in all namespaces',
+            usage: 'kubectl get pods --all-namespaces',
+            nb: 'This command lists all pods in all namespaces.',
+        },
+    'get-endpoints': [
+        {
+            value: 'get-endpoints',
+            label: 'Get endpoints',
+            usage: 'kubectl get endpoints',
+            nb: 'This command lists all endpoints in all namespaces. Endpoints give ip addresses and ports for objects exposed by the services.'
+        }
     ],
 };

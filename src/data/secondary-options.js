@@ -16,5 +16,17 @@ export const secondaryOptions = {
             value: 'get-pods-not-running',
             label: 'Get pods not running',
         },
+        {
+            value: 'get-pods-running',
+            label: 'Get pods running',
+        },
+        {
+            value: 'get-pods-all-namespaces',
+            label: 'Get pods in all namespaces',
+        },
+        {
+            value: 'get-endpoints',
+            label: 'Get endpoints',
+        }
     ],
 };
